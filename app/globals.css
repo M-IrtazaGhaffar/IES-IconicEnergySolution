@@ -18,10 +18,23 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+.global-bg {
+  background: hsla(215, 73%, 16%, 1);
+
+  background: linear-gradient(180deg, hsla(215, 73%, 16%, 1) 0%, hsla(0, 0%, 0%, 1) 100%);
+
+  background: -moz-linear-gradient(180deg, hsla(215, 73%, 16%, 1) 0%, hsla(0, 0%, 0%, 1) 100%);
+
+  background: -webkit-linear-gradient(180deg, hsla(215, 73%, 16%, 1) 0%, hsla(0, 0%, 0%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#0B2447", endColorstr="#000000", GradientType=1);
+}
+
+html {
+  scroll-behavior: smooth;
 }

@@ -1,7 +1,13 @@
+import Image from 'next/image'
+import Footer from './components/Footer'
+import Nav from './components/Nav'
 import './globals.css'
-import { Inter } from 'next/font/google'
+import Logo from "./assets/Logo1.png";
+import Logo2 from "./assets/Logo2.png";
+import { Montserrat } from 'next/font/google'
+// const {Montserrat} = require('next/font/google')
 
-const inter = Inter({ subsets: ['latin'] })
+const montserrat = Montserrat({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,7 +17,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${montserrat.className} text-black bg-white`}>
+        <Nav />
+        { children }
+        <Footer />
+      </body>
     </html>
   )
 }
