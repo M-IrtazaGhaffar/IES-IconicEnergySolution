@@ -10,7 +10,7 @@ function page() {
                         Get started on projects, request information about services, or ask about inventory. Our sales team is ready to help spec and find equipment for simple to complex industrial equipment systems! Our team usually responds within one business day. For information immediately, please call us during normal business hours to let us know about your wonderings to catch you!
                     </p>
                     <h3 className='text-2xl font-semibold py-10'>Otherwise</h3>
-                    <div className='flex gap-3 flex-col bg-slate-200 p-10 rounded'>
+                    <div className='flex gap-3 flex-col bg-slate-100 p-10 rounded'>
                         <div className='flex flex-col gap-1 items-start'>
                             <h3 className='text-lg pb-3'>
                                 Call Us
