@@ -10,7 +10,7 @@ function Header() {
                 </span>
             </h1>
             <p>
-                Then you're at the right place. No need to worry about it, we're here for you. <span className='font-semibold'>Iconic Energy Solutions</span> is one of best Energy problems solvers all over the pakistan & they will help you to get rid of it.
+                Then you&#39;re at the right place. No need to worry about it, we&#39;re here for you. <span className='font-semibold'>Iconic Energy Solutions</span> is one of best Energy problems solvers all over the pakistan & they&#39;ll help you to get rid of it.
             </p>
             <button className='bg-[#576CBC] px-4 py-2 rounded text-white flex items-center gap-2'>
                 Get Started
