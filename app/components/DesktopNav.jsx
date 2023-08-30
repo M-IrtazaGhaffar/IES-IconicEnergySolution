@@ -47,7 +47,7 @@ function DesktopNav() {
                     </details>
                 </li>
                 <li><Link className={`transition-all outline-none`} href='/'>About Us</Link></li>
-                <li><Link className={`transition-all outline-none`} href='/'>Contact Us</Link></li>
+                <li><Link className={`transition-all outline-none`} href='/contact'>Contact Us</Link></li>
                 <li><Link className={`transition-all outline-none`} href='/'>Load Calculator</Link></li>
                 <li><Link className={`transition-all outline-none`} href='/'>Applications</Link></li>
             </ul>
