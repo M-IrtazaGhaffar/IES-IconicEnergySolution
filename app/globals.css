@@ -74,3 +74,11 @@ html {
   filter: grayscale(2);
   z-index: -1;
 }
+
+.messageImg {
+  transform: perspective(2000px) rotateY(25deg);
+}
+
+.messageImgr {
+  transform: perspective(2000px) rotateY(-25deg);
+}
