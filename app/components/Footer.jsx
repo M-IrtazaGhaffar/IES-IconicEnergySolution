@@ -1,11 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
 import Logo from '../assets/Logo2.png'
+// bg-[#576CBC]
 
 function Footer() {
     return (
-        <section className='bg-white'>
-            <footer className="footer p-10 bg-[#576CBC] text-white rounded-t-3xl">
+        <section className='bg-white shadow-2xl '>
+            <footer className="footer p-10 bg-indigo-500 text-white rounded-t-3xl">
                 <div>
                     <span className="footer-title">Services</span>
                     <a className="link link-hover">Branding</a>

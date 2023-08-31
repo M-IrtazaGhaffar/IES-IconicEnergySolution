@@ -2,8 +2,6 @@ import Image from 'next/image'
 import Footer from './components/Footer'
 import Nav from './components/Nav'
 import './globals.css'
-import Logo from "./assets/Logo1.png";
-import Logo2 from "./assets/Logo2.png";
 import { Montserrat } from 'next/font/google'
 // const {Montserrat} = require('next/font/google')
 
