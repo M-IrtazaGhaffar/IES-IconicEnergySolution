@@ -63,37 +63,37 @@ function page() {
                         </div>
                     </div>
                 </div>
-                <form action="#" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
+                <form action="https://formspree.io/f/xrgwkbdp" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
                     {/* <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2"> */}
                     <div className='flex flex-col gap-3 lg:w-[30vw]'>
                         <div>
                             <label for="first-name" class="block text-xs font-semibold leading-6  ">First name</label>
                             <div class="mt-1">
-                                <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-[90vw] lg:w-full bg-transparent rounded-md border-0 px-3.5 py-2 outline-none shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset   sm:text-sm sm:leading-6" required placeholder="What's your First name?" />
+                                <input type="text" name="First Name" id="first-name" autocomplete="given-name" class="block w-[90vw] lg:w-full bg-transparent rounded-md border-0 px-3.5 py-2 outline-none shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset   sm:text-sm sm:leading-6" required placeholder="What's your First name?" />
                             </div>
                         </div>
                         <div class="sm:col-span-2">
                             <label for="company" class="block text-xs font-semibold leading-6  ">Company</label>
                             <div class="mt-1">
-                                <input type="text" name="company" id="company" autocomplete="organization" class="block w-full bg-transparent outline-none rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset   sm:text-sm sm:leading-6" required placeholder="What's your occupation?" />
+                                <input type="text" name="Company" id="company" autocomplete="organization" class="block w-full bg-transparent outline-none rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset   sm:text-sm sm:leading-6" required placeholder="What's your occupation?" />
                             </div>
                         </div>
                         <div class="sm:col-span-2">
                             <label for="email" class="block text-xs font-semibold leading-6  ">Email</label>
                             <div class="mt-1">
-                                <input type="email" name="email" id="email" autocomplete="email" class="block w-full rounded-md border-0 px-3.5 py-2  bg-transparent outline-none shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset   sm:text-sm sm:leading-6" required placeholder='Do you own an email?' />
+                                <input type="email" name="Email" id="email" autocomplete="email" class="block w-full rounded-md border-0 px-3.5 py-2  bg-transparent outline-none shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset   sm:text-sm sm:leading-6" required placeholder='Do you own an email?' />
                             </div>
                         </div>
                         <div class="sm:col-span-2">
                             <label for="phone-number" class="block text-xs font-semibold leading-6  ">Phone number</label>
                             <div class="relative mt-1">
-                                <input type="tel" name="phone-number" id="phone-number" autocomplete="tel" class="block w-full bg-transparent outline-none rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset   sm:text-sm sm:leading-6" required placeholder='How can we contact you?' />
+                                <input type="tel" name="Phone Number" id="phone-number" autocomplete="tel" class="block w-full bg-transparent outline-none rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset   sm:text-sm sm:leading-6" required placeholder='How can we contact you?' />
                             </div>
                         </div>
                         <div class="sm:col-span-2">
                             <label for="message" class="block text-xs font-semibold leading-6  ">Message</label>
                             <div class="mt-1">
-                                <textarea name="message" id="message" rows="8" class="block w-full rounded-md border-0 px-3.5 py-2 bg-transparent outline-none shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset   sm:text-sm sm:leading-6 resize-none" required placeholder='Describe yourself...'></textarea>
+                                <textarea name="Message" id="message" rows="8" class="block w-full rounded-md border-0 px-3.5 py-2 bg-transparent outline-none shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset   sm:text-sm sm:leading-6 resize-none" required placeholder='Describe yourself...'></textarea>
                             </div>
                         </div>
                     </div>
