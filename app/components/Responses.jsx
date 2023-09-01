@@ -7,10 +7,15 @@ import Alfalah from "../assets/alfalah bnk.png";
 import Dubai from "../assets/dubai islamic bank.png";
 import Islamic from "../assets/bank islamic.png";
 import Becon from "../assets/beconhouse.png";
+import Rich from "../assets/rich.jpg";
+import Meezan from "../assets/meezan bank.png";
+import Clayovenlogo from "../assets/clayovenlogo.png";
+import Burger from "../assets/Burger-lab-Logo.png";
+import Salt from "../assets/salt.jpg";
 
 function Responses() {
     return (
-        <div className='p-10'>
+        <div className='p-10 min-h-[50vh] flex flex-col items-center justify-center'>
             <div className='text-center py-10 flex flex-col gap-5'>
                 <h1 className='text-6xl  font-extrabold '>
                     Our Clients
@@ -20,13 +25,17 @@ function Responses() {
                 </p>
             </div>
             <div className='flex gap-10 flex-wrap items-center justify-center'>
-                <Image src={HBL} width={100} />
-                <Image src={KFC} width={100} />
-                <Image src={Alfalah} width={100} />
-                <Image src={Islamic} width={100} />
-                <Image src={Dubai} width={100} />
-                <Image src={NBP} width={100} />
-                <Image src={Becon} width={100} />
+                <Image src={HBL} width={100} alt='Img' />
+                <Image src={KFC} width={100} alt='Img' />
+                <Image src={Alfalah} width={100} alt='Img' />
+                <Image src={Islamic} width={100} alt='Img' />
+                <Image src={Dubai} width={100} alt='Img' />
+                <Image src={NBP} width={100} alt='Img' />
+                <Image src={Rich} width={100} alt='Img' />
+                <Image src={Meezan} width={100} alt='Img' />
+                <Image src={Clayovenlogo} width={100} alt='Img' />
+                <Image src={Burger} width={100} alt='Img' />
+                <Image src={Salt} width={100} alt='Img' />
             </div>
         </div>
     )

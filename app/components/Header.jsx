@@ -6,7 +6,7 @@ import Camera from "../assets/camera.png";
 function Header() {
     return (
         <div className='min-h-screen flex flex-col justify-center items-center gap-6 text-center p-10'>
-            <Image src={Camera} width={350} className='relative opacity-80 left-0 py-10 lg:p-0 lg:absolute lg:top-48' />
+            <Image src={Camera} width={350} className='relative opacity-80 left-0 py-10 lg:p-0 lg:absolute lg:top-48' alt='IMG' />
             <h1 className='text-4xl lg:text-6xl font-bold flex flex-col gap-2 z-10'>
                 So! You're in Search of
                 <span className='text-indigo-600 text-6xl lg:text-8xl'>

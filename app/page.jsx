@@ -5,6 +5,7 @@ import Newsletter from './components/Newsletter'
 import Work from './components/Work'
 import Message from './components/Message'
 import Responses from './components/Responses'
+import Services from './components/Services'
 
 function page() {
   return (
@@ -12,6 +13,8 @@ function page() {
       <Header />
       <About />
       <Message />
+      <div className="divider"></div>
+      <Services />
       <div className="divider"></div>
       <Responses />
       <Work />

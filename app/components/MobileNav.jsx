@@ -18,7 +18,7 @@ function MobileNav() {
                 <div className="drawer-side">
                     <label for="my-drawer" className="drawer-overlay"></label>
                     <ul className="menu p-4 w-80 min-h-full bg-white text-black">
-                        <Image src={Logo} width={150} className='p-5' />
+                        <Image src={Logo} width={150} className='p-5' alt='Img' />
                         <ul className="menu menu-horizontal flex flex-col items-start justify-center gap-3">
                             <li>
                                 <span>Generators list</span>
