@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
+import C1 from "../assets/c1.jpeg";
+import C2 from "../assets/c2.jpeg";
 
 function Message() {
     return (
@@ -14,7 +16,7 @@ function Message() {
             </div>
             <div className='flex justify-between items-center flex-col lg:flex-row'>
                 <div className='bg-indigo-500 lg:w-[40%] rounded-3xl messageImg relative left-[-80px] lg:left-[-50px] flex justify-end px-5 py-1 overflow-hidden'>
-                    <Image className='scale-90' width={300} height={100} src={'https://th.bing.com/th/id/OIP.FP8wuR2w9ZKyLz8Xjfg8-gHaLH?pid=ImgDet&rs=1'} />
+                    <Image className='scale-90 rounded-3xl' width={300} height={100} src={C2} />
                 </div>
                 <div className='lg:w-[80%] px-10'>
                     <h1 className='text-2xl font-semibold py-10'>
@@ -50,7 +52,7 @@ function Message() {
                         customers is our greatest reward. It inspires us to be innovative and motivates us to excel.</p>
                 </div>
                 <div className='bg-indigo-500 lg:w-[40%] rounded-3xl messageImgr relative right-[-80px] lg:right-[-50px] flex justify-start px-5 py-1 overflow-hidden'>
-                    <Image className='scale-90' width={300} height={100} src={'https://th.bing.com/th/id/OIP.FP8wuR2w9ZKyLz8Xjfg8-gHaLH?pid=ImgDet&rs=1'} />
+                    <Image className='scale-90 rounded-3xl' width={300} height={100} src={C1} />
                 </div>
             </div>
         </div>
