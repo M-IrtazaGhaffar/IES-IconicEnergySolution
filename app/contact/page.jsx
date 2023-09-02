@@ -103,7 +103,7 @@ function page() {
                 </form>
             </div>
             <div className='flex justify-center items-center min-w-full py-20'>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.557297260315!2d73.14703859110026!3d33.56487680461503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfec4cb06fe58d%3A0x1741b4e276218c34!2sSoan%20Ave%2C%20Islamabad%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1693425552437!5m2!1sen!2s" className='w-[95vw] h-96 drop-shadow-2xl' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.557297260315!2d73.14703859110026!3d33.56487680461503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfec4cb06fe58d%3A0x1741b4e276218c34!2sSoan%20Ave%2C%20Islamabad%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1693425552437!5m2!1sen!2s" className='w-[95vw] h-96 drop-shadow-2xl' allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             {/* Addresses */}
             <h3 className='text-3xl font-semibold text-center pt-10'>

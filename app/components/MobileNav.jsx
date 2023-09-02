@@ -10,7 +10,7 @@ function MobileNav() {
     return (
         <div className='lg:hidden'>
             <div className="drawer">
-                <input id="my-drawer" type={ Open ? `checkbox` : ''} className="drawer-toggle" />
+                <input id="my-drawer" type={ Open ? `checkbox` : 'reset'} className="drawer-toggle" />
                 <div className="drawer-content">
                     <label for="my-drawer" className="drawer-button">
                         <svg onClick={() => setOpen(!Open)} xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-list-nested" viewBox="0 0 16 16">

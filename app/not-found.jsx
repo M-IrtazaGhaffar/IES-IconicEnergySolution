@@ -2,7 +2,7 @@ import React from 'react'
 
 function notFound() {
     return (
-        <div className='min-h-screen bg-white text-center flex justify-center items-center gap-5 flex-col'>
+        <div className='min-h-screen bg-white text-center flex justify-center items-center gap-5 flex-col p-10'>
             <h1 className='text-4xl lg:text-6xl p-5 text-center font-extrabold'>
                 404 | Not Found
             </h1>
