@@ -109,7 +109,7 @@ function Load() {
         <div className='py-10 flex flex-wrap gap-10 items-center justify-center'>
             <div className='text-center px-10 py-5 border-2 border-[#576CBC]'>
                 <h3 className='text-xl'>Peak Load</h3>
-                <span className='text-3xl font-semibold'>~ {Load}k W</span>
+                <span className='text-3xl font-semibold'>~ {Load} kW</span>
             </div>
             <div className="flex flex-wrap items-center justify-center gap-5 lg:gap-10">
                 <div className="flex flex-col gap-1 w-[80vw] lg:w-[25vw]">
