@@ -8,7 +8,7 @@ function loading() {
                 Please wait while we process your request!
             </div>
             <p className='text-xs absolute bottom-10 opacity-75'>
-                www.iconic.com.pk
+                www.iconicenergy.com.pk
             </p>
         </div>
     )

@@ -102,14 +102,29 @@ function Load() {
             sum = sum + mul
             console.log(i + " -sum- " + sum);
         }
-        setLoad(sum/1000)
+        setLoad(sum / 1000)
     }
 
     return (
-        <div className='py-10 flex flex-wrap gap-10 items-center justify-center'>
+        <div className='py-10 flex flex-col flex-wrap gap-10 items-center justify-center'>
             <div className='text-center px-10 py-5 border-2 border-[#576CBC]'>
                 <h3 className='text-xl'>Peak Load</h3>
                 <span className='text-3xl font-semibold'>~ {Load} kW</span>
+            </div>
+            <div className='bg-slate-100 rounded w-full p-5'>
+                <h3 className='text-2xl text-center font-semibold p-3'>Data Sheet</h3>
+                <div className='flex gap-5 items-center justify-center flex-wrap text-white'>
+                    {
+                        Usage.map(item => {
+                            return (
+                                <p className='bg-[#576CBC] p-3 rounded capitalize boxShadow'>
+                                    {item.name} &nbsp;
+                                    <span className='bg-indigo-500 py-1 px-3 rounded boxShadow'>{item.no} x {item.watt} Watt</span>
+                                </p>
+                            )
+                        })
+                    }
+                </div>
             </div>
             <div className="flex flex-wrap items-center justify-center gap-5 lg:gap-10">
                 <div className="flex flex-col gap-1 w-[80vw] lg:w-[25vw]">

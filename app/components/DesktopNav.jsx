@@ -50,9 +50,9 @@ function DesktopNav() {
                     </details>
                 </li>
                 <li><Link className={`transition-all outline-none`} href='/ac'>AC Inverter</Link></li>
-                <li><Link className={`transition-all outline-none`} href='/'>ATS</Link></li>
-                <li><Link className={`transition-all outline-none`} href='/'>CCTV</Link></li>
-                <li><Link className={`transition-all outline-none`} href='/'>Others</Link></li>
+                <li><Link className={`transition-all outline-none`} href='/ats'>ATS</Link></li>
+                <li><Link className={`transition-all outline-none`} href='/cctv'>CCTV</Link></li>
+                <li><Link className={`transition-all outline-none`} href='/others'>Others</Link></li>
                 <li><Link className={`transition-all outline-none`} href='/contact'>Contact Us</Link></li>
                 <li><Link className={`transition-all outline-none`} href='/load'>Load Calculator</Link></li>
                 <li><Link className={`transition-all outline-none`} href='/applications'>Applications</Link></li>
