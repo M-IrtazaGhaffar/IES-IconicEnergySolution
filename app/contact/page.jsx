@@ -29,7 +29,7 @@ function page() {
     ]
     return (
         <div class="px-6 py-24 sm:py-32 lg:px-8 bg-white text-black">
-            <h2 class="text-4xl p-3 font-bold tracking-tight sm:text-6xl text-center underline underline-offset-8">Contact Sales</h2>
+            <h2 class="text-4xl p-3 font-bold tracking-tight sm:text-6xl text-center">Contact Sales</h2>
             <div className='flex flex-wrap items-center justify-center'>
                 <div class="mx-auto max-w-2xl text-center z-10">
                     <p class="mt-2 text-sm leading-8">

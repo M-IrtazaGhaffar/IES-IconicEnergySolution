@@ -83,11 +83,11 @@ function page() {
                     Here are our Features!
                 </h3>
                 <ul className='list-decimal list-inside'>
-                    <p className='py-2'>Capable of providing one-window solution for multidimensional and complex sort of construction services for residential &commercial development including the following services</p>
+                    <p className='py-2'>Capable of providing one-window solution for multidimensional and complex sort of construction services for residential & commercial development including the following services :</p>
                     {
                         list.map(item => {
                             return (
-                                <li key={item}>
+                                <li key={item} className='text-sm'>
                                     {item}
                                 </li>
                             )

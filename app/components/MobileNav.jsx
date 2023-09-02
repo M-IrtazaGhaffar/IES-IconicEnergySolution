@@ -35,7 +35,7 @@ function MobileNav() {
                             <li><Link className={`transition-all outline-none`} href='/'>CCTV</Link></li>
                             <li><Link href='/'>Others list</Link></li>
                             <li><Link className={`transition-all outline-none`} href='/contact'>Contact Us</Link></li>
-                            <li><Link className={`transition-all outline-none`} href='/'>Load Calculator</Link></li>
+                            <li><Link className={`transition-all outline-none`} href='/load'>Load Calculator</Link></li>
                             <li><Link className={`transition-all outline-none`} href='/applications'>Applications</Link></li>
                         </ul>
                     </ul>
