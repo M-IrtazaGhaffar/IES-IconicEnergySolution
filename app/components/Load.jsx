@@ -102,69 +102,69 @@ function Load() {
             sum = sum + mul
             console.log(i + " -sum- " + sum);
         }
-        setLoad(sum)
+        setLoad(sum/1000)
     }
 
     return (
         <div className='py-10 flex flex-wrap gap-10 items-center justify-center'>
             <div className='text-center px-10 py-5 border-2 border-[#576CBC]'>
                 <h3 className='text-xl'>Peak Load</h3>
-                <span className='text-3xl font-semibold'>~ {Load} W</span>
+                <span className='text-3xl font-semibold'>~ {Load}k W</span>
             </div>
-            <div className="flex flex-wrap items-center justify-center gap-10">
-                <div className="flex flex-col gap-1 lg:w-[25vw]">
+            <div className="flex flex-wrap items-center justify-center gap-5 lg:gap-10">
+                <div className="flex flex-col gap-1 w-[80vw] lg:w-[25vw]">
                     <label htmlFor="tubelights" className='text-xs'>Tubelights</label>
                     <input id='tubelights' className='bg-transparent border-2 border-slate-300 px-3 py-1 rounded outline-none' type='number' placeholder='1 for 75 Watt' name='tubelight' onChange={handleInput} />
                 </div>
-                <div className="flex flex-col gap-1 lg:w-[25vw]">
+                <div className="flex flex-col gap-1 lg:w-[25vw] w-[80vw]">
                     <label htmlFor="energysaver" className='text-xs'>Energysaver</label>
                     <input id='energysaver' className='bg-transparent border-2 border-slate-300 px-3 py-1 rounded outline-none' type='number' placeholder='1 for 25 Watt' name='energysaver' onChange={handleInput} />
                 </div>
-                <div className="flex flex-col gap-1 lg:w-[25vw]">
+                <div className="flex flex-col gap-1 lg:w-[25vw] w-[80vw]">
                     <label htmlFor="led" className='text-xs'>LED Bulb</label>
                     <input id='led' className='bg-transparent border-2 border-slate-300 px-3 py-1 rounded outline-none' type='number' placeholder='1 for 12 Watt' name='led' onChange={handleInput} />
                 </div>
-                <div className="flex flex-col gap-1 lg:w-[25vw]">
+                <div className="flex flex-col gap-1 lg:w-[25vw] w-[80vw]">
                     <label htmlFor="fan" className='text-xs'>Fans</label>
                     <input id='fan' className='bg-transparent border-2 border-slate-300 px-3 py-1 rounded outline-none' type='number' placeholder='1 for 150 Watt' name='fan' onChange={handleInput} />
                 </div>
-                <div className="flex flex-col gap-1 lg:w-[25vw]">
+                <div className="flex flex-col gap-1 lg:w-[25vw] w-[80vw]">
                     <label htmlFor="tv" className='text-xs'>TV</label>
                     <input id='tv' className='bg-transparent border-2 border-slate-300 px-3 py-1 rounded outline-none' type='number' placeholder='1 for 250 Watt' name='tv' onChange={handleInput} />
                 </div>
-                <div className="flex flex-col gap-1 lg:w-[25vw]">
+                <div className="flex flex-col gap-1 lg:w-[25vw] w-[80vw]">
                     <label htmlFor="tv32" className='text-xs'>TV 32 inch</label>
                     <input id='tv32' className='bg-transparent border-2 border-slate-300 px-3 py-1 rounded outline-none' type='number' placeholder='1 for 100 Watt' name='tv32' onChange={handleInput} />
                 </div>
-                <div className="flex flex-col gap-1 lg:w-[25vw]">
+                <div className="flex flex-col gap-1 lg:w-[25vw] w-[80vw]">
                     <label htmlFor="computer" className='text-xs'>Computer</label>
                     <input id='computer' className='bg-transparent border-2 border-slate-300 px-3 py-1 rounded outline-none' type='number' placeholder='1 for 500 Watt' name='computer' onChange={handleInput} />
                 </div>
-                <div className="flex flex-col gap-1 lg:w-[25vw]">
+                <div className="flex flex-col gap-1 lg:w-[25vw] w-[80vw]">
                     <label htmlFor="refrigerator" className='text-xs'>Refrigerator</label>
                     <input id='refrigerator' className='bg-transparent border-2 border-slate-300 px-3 py-1 rounded outline-none' type='number' placeholder='1 for 300 Watt' name='refrigerator' onChange={handleInput} />
                 </div>
-                <div className="flex flex-col gap-1 lg:w-[25vw]">
+                <div className="flex flex-col gap-1 lg:w-[25vw] w-[80vw]">
                     <label htmlFor="freezer" className='text-xs'>Freezer</label>
                     <input id='freezer' className='bg-transparent border-2 border-slate-300 px-3 py-1 rounded outline-none' type='number' placeholder='1 for 350 Watt' name='freezer' onChange={handleInput} />
                 </div>
-                <div className="flex flex-col gap-1 lg:w-[25vw]">
+                <div className="flex flex-col gap-1 lg:w-[25vw] w-[80vw]">
                     <label htmlFor="washingmachine" className='text-xs'>Washing Machine</label>
                     <input id='washingmachine' className='bg-transparent border-2 border-slate-300 px-3 py-1 rounded outline-none' type='number' placeholder='1 for 700 Watt' name='washingmachine' onChange={handleInput} />
                 </div>
-                <div className="flex flex-col gap-1 lg:w-[25vw]">
+                <div className="flex flex-col gap-1 lg:w-[25vw] w-[80vw]">
                     <label htmlFor="waterpump" className='text-xs'>Water Pump</label>
                     <input id='waterpump' className='bg-transparent border-2 border-slate-300 px-3 py-1 rounded outline-none' type='number' placeholder='1 for 800 Watt' name='waterpump' onChange={handleInput} />
                 </div>
-                <div className="flex flex-col gap-1 lg:w-[25vw]">
+                <div className="flex flex-col gap-1 lg:w-[25vw] w-[80vw]">
                     <label htmlFor="iron" className='text-xs'>Iron</label>
                     <input id='iron' className='bg-transparent border-2 border-slate-300 px-3 py-1 rounded outline-none' type='number' placeholder='1 for 1000 Watt' name='iron' onChange={handleInput} />
                 </div>
-                <div className="flex flex-col gap-1 lg:w-[25vw]">
+                <div className="flex flex-col gap-1 lg:w-[25vw] w-[80vw]">
                     <label htmlFor="ac1" className='text-xs'>AC 1 ton</label>
                     <input id='ac1' className='bg-transparent border-2 border-slate-300 px-3 py-1 rounded outline-none' type='number' placeholder='1 for 1500 Watt' name='ac1' onChange={handleInput} />
                 </div>
-                <div className="flex flex-col gap-1 lg:w-[25vw]">
+                <div className="flex flex-col gap-1 lg:w-[25vw] w-[80vw]">
                     <label htmlFor="ac1.5" className='text-xs'>AC 1.5 ton</label>
                     <input id='ac1.5' className='bg-transparent border-2 border-slate-300 px-3 py-1 rounded outline-none' type='number' placeholder='1 for 2000 Watt' name='ac1.5' onChange={handleInput} />
                 </div>
