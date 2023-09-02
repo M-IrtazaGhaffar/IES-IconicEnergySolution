@@ -23,30 +23,20 @@ function MobileNav() {
                             <li>
                                 <span>Generators list</span>
                                 <ul>
-                                    <li><Link className={`transition-all outline-none`} href='/'>1</Link></li>
-                                    <li><Link className={`transition-all outline-none`} href='/'>1</Link></li>
-                                    <li><Link className={`transition-all outline-none`} href='/'>1</Link></li>
+                                    <li><Link className={`transition-all outline-none`} href='/'>Cummins</Link></li>
+                                    <li><Link className={`transition-all outline-none`} href='/'>Perkin UK</Link></li>
+                                    <li><Link className={`transition-all outline-none`} href='/'>YD</Link></li>
+                                    <li><Link className={`transition-all outline-none`} href='/'>Tazzato</Link></li>
+                                    <li><Link className={`transition-all outline-none`} href='/'>RENTAL GENRATORS</Link></li>
                                 </ul>
                             </li>
-                            <li>
-                                <span>ACs list</span>
-                                <ul>
-                                    <li><Link className={`transition-all outline-none`} href='/'>1</Link></li>
-                                    <li><Link className={`transition-all outline-none`} href='/'>1</Link></li>
-                                    <li><Link className={`transition-all outline-none`} href='/'>1</Link></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <span>Cameras list</span>
-                                <ul>
-                                    <li><Link className={`transition-all outline-none`} href='/'>1</Link></li>
-                                    <li><Link className={`transition-all outline-none`} href='/'>1</Link></li>
-                                    <li><Link className={`transition-all outline-none`} href='/'>1</Link></li>
-                                </ul>
-                            </li>
+                            <li><Link className={`transition-all outline-none`} href='/ac'>AC Inverter</Link></li>
+                            <li><Link className={`transition-all outline-none`} href='/'>ATS</Link></li>
+                            <li><Link className={`transition-all outline-none`} href='/'>CCTV</Link></li>
+                            <li><Link href='/'>Others list</Link></li>
                             <li><Link className={`transition-all outline-none`} href='/contact'>Contact Us</Link></li>
                             <li><Link className={`transition-all outline-none`} href='/'>Load Calculator</Link></li>
-                            <li><Link className={`transition-all outline-none`} href='/'>Applications</Link></li>
+                            <li><Link className={`transition-all outline-none`} href='/applications'>Applications</Link></li>
                         </ul>
                     </ul>
                 </div>
