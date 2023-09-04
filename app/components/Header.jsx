@@ -2,11 +2,16 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import Camera from "../assets/camera.png";
+import Logo from "../assets/Logo1.png";
 
 function Header() {
     return (
-        <div className='min-h-screen flex flex-col justify-center items-center gap-6 text-center p-10'>
-            <Image src={Camera} width={350} className='relative opacity-80 left-0 py-10 lg:p-0 lg:absolute lg:top-48' alt='IMG' />
+        <div className='min-h-screen flex flex-col justify-center items-center gap-6 text-center px-10 py-20'>
+            <div className="lg:min-h-[50vh]">
+            <Image src={Camera} width={300} className='relzative opacity-80 left-0 py-10 lg:p-0 hidden lg:block lg:absolute' alt='IMG' />
+            <Image src={Logo} width={400} className='py-10 lg:absolute lg:translate-x-[-50%]' />
+            <Image src={Camera} width={300} className='relzative opacity-80 right-0 py-10 lg:p-0 hidden lg:block lg:absolute scale-x-[-1]' alt='IMG' />
+            </div>
             <h1 className='text-4xl lg:text-6xl font-bold flex flex-col gap-2 z-10'>
                 So! You're in Search of
                 <span className='text-indigo-600 text-6xl lg:text-8xl'>

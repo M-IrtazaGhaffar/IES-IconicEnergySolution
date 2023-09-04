@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link';
+import DesktopNavChild from './DesktopNavChild';
 
 function DesktopNav() {
     return (
@@ -37,7 +38,10 @@ function DesktopNav() {
                         </ul>
                     </details>
                 </li> */}
-                <li tabIndex={0}>
+                <li>
+                    <DesktopNavChild />
+                </li>
+                {/* <li tabIndex={0}>
                     <details>
                         <summary>Generators</summary>
                         <ul className="p-2 min-w-[250px] bg-white transition-all outline-none text-black">
@@ -48,7 +52,7 @@ function DesktopNav() {
                             <li><Link className={`transition-all outline-none`} href='/'>RENTAL GENRATORS</Link></li>
                         </ul>
                     </details>
-                </li>
+                </li> */}
                 <li><Link className={`transition-all outline-none`} href='/ac'>AC Inverter</Link></li>
                 <li><Link className={`transition-all outline-none`} href='/ats'>ATS</Link></li>
                 <li><Link className={`transition-all outline-none`} href='/cctv'>CCTV</Link></li>

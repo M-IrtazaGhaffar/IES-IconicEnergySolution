@@ -51,6 +51,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   z-index: -1;
   opacity: 0.9;
   border-radius: 5px;
@@ -73,6 +74,7 @@ html {
   background-size: cover;
   filter: grayscale(2);
   z-index: -1;
+  background-attachment: fixed;
 }
 
 .messageImg {
@@ -81,4 +83,10 @@ html {
 
 .messageImgr {
   transform: perspective(2000px) rotateY(-25deg);
+}
+
+.navDesktopList {
+  display: none;
+  position: absolute;
+  top: 25px;
 }

@@ -69,25 +69,25 @@ function page() {
                         <div>
                             <label for="first-name" class="block text-xs font-semibold leading-6  ">First name</label>
                             <div class="mt-1">
-                                <input type="text" name="First Name" id="first-name" autocomplete="given-name" class="block w-[90vw] lg:w-full bg-transparent rounded-md border-0 px-3.5 py-2 outline-none shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset   sm:text-sm sm:leading-6" required placeholder="What's your First name?" />
+                                <input type="text" name="First Name" id="first-name" autoComplete="given-name" class="block w-[90vw] lg:w-full bg-transparent rounded-md border-0 px-3.5 py-2 outline-none shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset   sm:text-sm sm:leading-6" required placeholder="What's your First name?" />
                             </div>
                         </div>
                         <div class="sm:col-span-2">
                             <label for="company" class="block text-xs font-semibold leading-6  ">Company</label>
                             <div class="mt-1">
-                                <input type="text" name="Company" id="company" autocomplete="organization" class="block w-full bg-transparent outline-none rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset   sm:text-sm sm:leading-6" required placeholder="What's your occupation?" />
+                                <input type="text" name="Company" id="company" autoComplete="organization" class="block w-full bg-transparent outline-none rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset   sm:text-sm sm:leading-6" required placeholder="What's your occupation?" />
                             </div>
                         </div>
                         <div class="sm:col-span-2">
                             <label for="email" class="block text-xs font-semibold leading-6  ">Email</label>
                             <div class="mt-1">
-                                <input type="email" name="Email" id="email" autocomplete="email" class="block w-full rounded-md border-0 px-3.5 py-2  bg-transparent outline-none shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset   sm:text-sm sm:leading-6" required placeholder='Do you own an email?' />
+                                <input type="email" name="Email" id="email" autoComplete="email" class="block w-full rounded-md border-0 px-3.5 py-2  bg-transparent outline-none shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset   sm:text-sm sm:leading-6" required placeholder='Do you own an email?' />
                             </div>
                         </div>
                         <div class="sm:col-span-2">
                             <label for="phone-number" class="block text-xs font-semibold leading-6  ">Phone number</label>
                             <div class="relative mt-1">
-                                <input type="tel" name="Phone Number" id="phone-number" autocomplete="tel" class="block w-full bg-transparent outline-none rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset   sm:text-sm sm:leading-6" required placeholder='How can we contact you?' />
+                                <input type="tel" name="Phone Number" id="phone-number" autoComplete="tel" class="block w-full bg-transparent outline-none rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset   sm:text-sm sm:leading-6" required placeholder='How can we contact you?' />
                             </div>
                         </div>
                         <div class="sm:col-span-2">

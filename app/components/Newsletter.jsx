@@ -15,7 +15,7 @@ function Newsletter() {
                             </p>
                             <form class="mt-6 flex max-w-md gap-x-4" action='https://formspree.io/f/xdorzkjl' method='POST'>
                                 <label for="email-address" class="sr-only">Email address</label>
-                                <input id="email-address" name="Subscribing your Newsletter (Email)" type="email" autocomplete="email" required class="outline-none border-indigo-200 min-w-0 flex-auto rounded-md border-2 bg-white/5 px-3.5 py-2 shadow-2xl ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" placeholder="Enter your email" />
+                                <input id="email-address" name="Subscribing your Newsletter (Email)" type="email" autoComplete="email" required class="outline-none border-indigo-200 min-w-0 flex-auto rounded-md border-2 bg-white/5 px-3.5 py-2 shadow-2xl ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" placeholder="Enter your email" />
                                 <button type="submit" class="flex-none rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Subscribe</button>
                             </form>
                         </div>
