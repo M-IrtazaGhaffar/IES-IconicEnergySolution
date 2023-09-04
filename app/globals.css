@@ -23,6 +23,10 @@ body {
       rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
+body::selection {
+  background-color: indigo;
+}
+
 .global-bg {
   background: hsla(215, 73%, 16%, 1);
 
