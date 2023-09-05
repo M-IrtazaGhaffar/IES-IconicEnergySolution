@@ -285,7 +285,7 @@ function page({ params }) {
       ]
     },
     {
-      name: 'Rental',
+      name: 'rental',
       dataSet: [
       ]
     },
@@ -303,12 +303,22 @@ function page({ params }) {
               {params.id}
             </h1>
             <p className='p-5 text-xs text-center'>
-              If you are looking for a reliable and powerful generator, a {params.id} generator is a good option. They are known for their durability, performance, and efficiency, and they are available in a variety of sizes to meet different needs.
+              {
+                item.name === 'rental' ?
+                  'If you need a generator for a temporary or permanent power need, Iconic Energy Solutions is a good option. They offer a wide range of generators from top brands, and they have a team of experts who can help you choose the right generator for your needs.'
+                  :
+                  'If you are looking for a reliable and powerful generator, a {params.id} generator is a good option. They are known for their durability, performance, and efficiency, and they are available in a variety of sizes to meet different needs.'
+              }
             </p>
             <div>
-              <h3 className='text-xl text-center font-bold'>
-                Availablity criteria
-              </h3>
+              {
+                item.name === 'rental' ?
+                  ''
+                  :
+                  <h3 className='text-xl text-center font-bold'>
+                    Availablity criteria
+                  </h3>
+              }
               <div className="overflow-x-auto flex justify-center items-center flex-col gap-10 py-10">
                 {/* <Image src={Img} /> */}
                 {
