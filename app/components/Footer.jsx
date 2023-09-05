@@ -1,23 +1,27 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import Logo from "../assets/Logo1.png";
 // bg-[#576CBC]
 
 function Footer() {
     return (
         <section className='bg-white shadow-2xl'>
-            <footer className="footer p-10 bg-indigo-500 text-white rounded-t-3xl">
-                <div className='w-[50vw]'>
-                    <h3 className='text-2xl font-bold'>
+            <footer className="footer p-10 bg-indigo-500 text-white rounded-t-3xl boxShadow">
+                <div className='lg:w-[50vw]'>
+                {/* <Image src={Logo} /> */}
+                    <h3 className='pt-10 text-2xl font-bold'>
                         Iconic Energy Solutions
                     </h3>
                     <p className='text-xs'>
                         Iconic Energy Solution is renowned service provider company dealing in Standby Power, Civil Works and Air Conditioning Systems in the Banking, Restaurants, Textile & Education sectors.
                     </p>
                     <ul className='flex flex-col gap-2 py-5'>
-                        <li>Mail us at <a href="mailto:Info@iconicenergy.com.pk">Info@iconicenergy.com.pk</a>
+                        <span className='text-xs opacity-75 underline'>Click on the given mail address or phone number to continue</span>
+                        <li>Mail us at <br /> <a href="mailto:Info@iconicenergy.com.pk" className='p-5'>Info@iconicenergy.com.pk</a>
                         </li>
                         <li>
-                            Call us on <a href="tel:+923335390253" className='text-sm'>0333-5390253</a>
+                            Call us on <br /> <a href="tel:+923335390253" className='text-sm p-5'>+92 333 5390253</a>
                         </li>
                     </ul>
                 </div>

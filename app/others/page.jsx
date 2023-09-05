@@ -15,7 +15,7 @@ function page() {
         <div className='lg:w-[15vw] lg:h-[15vw] bg-slate-50 rounded-full flex items-center justify-center text-xs p-5 font-semibold text-center border-4 border-indigo-500 boxShadow lg:relative top-24'>
           New sound proof canopies  of gensets
         </div>
-        <Image src={Logo} className='lg:relative top-60' />
+        <Image src={Logo} className='' />
         <div className='lg:w-[15vw] lg:h-[15vw] bg-slate-50 rounded-full flex items-center justify-center text-xs p-5 font-semibold text-center border-4 border-indigo-500 boxShadow lg:relative top-24'>
           Transformer  Repairing work
         </div>
