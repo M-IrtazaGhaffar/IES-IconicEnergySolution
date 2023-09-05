@@ -1,6 +1,7 @@
 import React from 'react'
 import Img from "../../assets/gen.png";
 import Image from 'next/image';
+import Link from 'next/link';
 
 function page({ params }) {
 
@@ -295,7 +296,7 @@ function page({ params }) {
     data.map((item) => {
       return (
         item.name == params.id ?
-          <div className='p-10 min-h-screen bg-white' key={item.name}>
+          <div className='p-10 min-h-[50vh] bg-white' key={item.name}>
             <h3 className='text-2xl text-center font-bold'>
               Generator
             </h3>
@@ -305,11 +306,57 @@ function page({ params }) {
             <p className='p-5 text-xs text-center'>
               {
                 item.name === 'rental' ?
-                  'If you need a generator for a temporary or permanent power need, Iconic Energy Solutions is a good option. They offer a wide range of generators from top brands, and they have a team of experts who can help you choose the right generator for your needs.'
+                  'If you need a generator for a temporary or permanent power need, Iconic Energy Solutions is a good option. They offer a wide range of generators from top brands, and they have a team of experts who can help you choose the right generator for your needs. The generators offered for rent by Iconic Energy Solutions are from top brands like Generac, Cummins, and Kohler. They come in a variety of sizes and power outputs to meet different needs.'
                   :
                   'If you are looking for a reliable and powerful generator, a {params.id} generator is a good option. They are known for their durability, performance, and efficiency, and they are available in a variety of sizes to meet different needs.'
               }
             </p>
+            {
+              item.name === 'rental' ?
+                <div className='p-10 flex flex-col gap-5'>
+                  <ul className='list list-decimal list-inside'>
+                    <p className='text-xl font-semibold'>
+                      Here are some of the benefits of renting a generator from Iconic Energy Solutions!
+                    </p>
+                    <li>
+                      You don't have to buy a generator, which can be expensive.
+                    </li>
+                    <li>
+                      You only pay for the generator when you need it.
+                    </li>
+                    <li>
+                      Iconic Energy Solutions will deliver and set up the generator for you.
+                    </li>
+                    <li>
+                      They will also provide maintenance and repairs during the rental period.
+
+                    </li>
+                  </ul>
+                  <ul className='list list-decimal list-inside'>
+                    <p className='text-xl font-semibold'>
+                      Here are some of the factors to consider when choosing a generator to rent!
+                    </p>
+                    <li>
+                      The size of the generator: The size of the generator will depend on the amount of power you need.
+                    </li>
+                    <li>
+                      The power output of the generator: The power output of the generator will determine what appliances and equipment you can run.
+                    </li>
+                    <li>
+                      The features of the generator: Some generators have features like automatic start, remote start, and fuel shutoff.
+                    </li>
+                    <li>
+                      The price of the rental: The price of the rental will depend on the size, power output, and features of the generator.
+                    </li>
+                  </ul>
+                  <p className='opacity-75 text-xs'>
+                    If you want any other kind of information then donot be shy to Contact us
+                  </p>
+                  <Link href='/contact' className='bg-indigo-500 px-5 py-2 w-fit text-white font-semibold rounded boxShadow'>
+                    Contact Us
+                  </Link>
+                </div> : ''
+            }
             <div>
               {
                 item.name === 'rental' ?
