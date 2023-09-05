@@ -32,7 +32,7 @@ function page() {
       <ul className='flex items-center justify-center gap-5 flex-wrap p-10'>
         {
           data.map((item) => {
-            return <li className='bg-indigo-500 text-white px-5 py-2 rounded font-semibold boxShadow' key={item}>{item}</li>
+            return <li className='bg-indigo-500 text-white px-5 py-2 rounded font-semibold boxShadow text-center' key={item}>{item}</li>
           })
         }
       </ul>

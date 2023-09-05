@@ -94,3 +94,8 @@ html {
   position: absolute;
   top: 25px;
 }
+
+.bgGray {
+  /* background: linear-gradient(110deg, rgba(255, 255, 255, 0) 64%, rgba(37, 57, 147, 0.08) 64%); */
+  background: linear-gradient(70deg, rgba(255, 255, 255, 0) 50%, rgba(37, 57, 147, 0.08) 44%);
+}
