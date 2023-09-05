@@ -16,13 +16,13 @@ function DesktopNavChild() {
 
     return (
         <div>
-            <span className='navDesktopBtn' ref={refParent} onMouseEnter={handleHoverEnter} onMouseLeave={handleHoverLeave} >Generators</span>
+            <Link href='/gen' className='navDesktopBtn' ref={refParent} onMouseEnter={handleHoverEnter} onMouseLeave={handleHoverLeave} >Generators</Link>
             <ul ref={refChild} onMouseEnter={handleHoverEnter} onMouseLeave={handleHoverLeave} className="p-2 min-w-[250px] bg-white transition-all outline-none text-black navDesktopList rounded-lg">
-                <li><Link className={`transition-all outline-none`} href='/'>Cummins</Link></li>
-                <li><Link className={`transition-all outline-none`} href='/'>Perkin UK</Link></li>
-                <li><Link className={`transition-all outline-none`} href='/'>YD</Link></li>
-                <li><Link className={`transition-all outline-none`} href='/'>Tazzato</Link></li>
-                <li><Link className={`transition-all outline-none`} href='/'>RENTAL GENRATORS</Link></li>
+                <li><Link className={`transition-all outline-none`} href='/gen/cummins'>Cummins</Link></li>
+                <li><Link className={`transition-all outline-none`} href='/gen/perkins'>Perkin UK</Link></li>
+                <li><Link className={`transition-all outline-none`} href='/gen/yd'>YD</Link></li>
+                <li><Link className={`transition-all outline-none`} href='/gen/tazzato'>Tazzato</Link></li>
+                <li><Link className={`transition-all outline-none`} href='/gen/rental'>RENTAL GENRATORS</Link></li>
             </ul>
         </div>
     )

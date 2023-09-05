@@ -4,7 +4,7 @@ import Logo from "../assets/Logo1.png";
 
 function page() {
   return (
-    <div className='min-[1500px]:min-h-screen lg:min-h-[125vh] min-h-screen p-10 bg-white'>
+    <div className='min-[1500px]:min-h-screen lg:min-h-screen min-h-screen p-10 bg-white'>
       <h1 className='text-4xl lg:text-6xl p-5 text-center font-extrabold'>
         Other Services
       </h1>

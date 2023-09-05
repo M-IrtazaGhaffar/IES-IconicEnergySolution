@@ -3,6 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 import Logo from "../assets/Logo1.png";
 // bg-[#576CBC]
+// linear-gradient(110deg, rgba(255, 255, 255, 0) 64%, rgba(37, 57, 147, 0.08) 64%);
 
 function Footer() {
     return (

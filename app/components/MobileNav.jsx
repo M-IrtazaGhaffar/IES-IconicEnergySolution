@@ -21,16 +21,16 @@ function MobileNav() {
                 <div className="drawer-side">
                     <label for="my-drawer" className="drawer-overlay"></label>
                     <ul className="menu p-4 w-80 min-h-full bg-white text-black">
-                        <Image src={Logo} width={150} className='p-5' alt='Img' />
+                        <Image src={Logo} width={200} className='p-5' alt='Img' />
                         <ul className="menu menu-horizontal flex flex-col items-start justify-center gap-3">
                             <li>
-                                <span>Generators list</span>
+                                <Link onClick={()=>setOpen(!Open)} href='/gen'>Generators list</Link>
                                 <ul>
-                                    <li><Link className={`transition-all outline-none`} href='/'>Cummins</Link></li>
-                                    <li><Link className={`transition-all outline-none`} href='/'>Perkin UK</Link></li>
-                                    <li><Link className={`transition-all outline-none`} href='/'>YD</Link></li>
-                                    <li><Link className={`transition-all outline-none`} href='/'>Tazzato</Link></li>
-                                    <li><Link className={`transition-all outline-none`} href='/'>RENTAL GENRATORS</Link></li>
+                                    <li><Link className={`transition-all outline-none`} href='/gen/cummins' onClick={()=>setOpen(!Open)}>Cummins</Link></li>
+                                    <li><Link className={`transition-all outline-none`} href='/gen/perkins' onClick={()=>setOpen(!Open)}>Perkin UK</Link></li>
+                                    <li><Link className={`transition-all outline-none`} href='/gen/yd' onClick={()=>setOpen(!Open)}>YD</Link></li>
+                                    <li><Link className={`transition-all outline-none`} href='/gen/tazzato' onClick={()=>setOpen(!Open)}>Tazzato</Link></li>
+                                    <li><Link className={`transition-all outline-none`} href='/gen/rental' onClick={()=>setOpen(!Open)}>Rental Generators</Link></li>
                                 </ul>
                             </li>
                             <li><Link className={`transition-all outline-none`} href='/ac' onClick={()=>setOpen(!Open)}>AC Inverter</Link></li>
@@ -49,14 +49,3 @@ function MobileNav() {
 }
 
 export default MobileNav
-
-
-// import React from 'react'
-
-// function MobileNav() {
-//   return (
-//     <div className='lg:hidden'>MobileNav</div>
-//   )
-// }
-
-// export default MobileNav

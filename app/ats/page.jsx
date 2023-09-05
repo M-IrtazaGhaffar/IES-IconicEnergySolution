@@ -6,6 +6,13 @@ import Img3 from "../assets/ats3.jpg";
 import Link from 'next/link';
 
 function page() {
+  const data = [
+    'Hybrid Transfer Switch (HTS)',
+    'Dynamic Transfer Switch (DTS)',
+    'Static Transfer Switch (STS)',
+    'Automatic Transfer Switch (ATS)',
+    'Manual Transfer Switch (MTS)'
+  ]
   return (
     <div className='min-h-screen p-10 bg-white'>
       <h1 className='text-4xl lg:text-6xl p-5 text-center font-extrabold'>
@@ -19,6 +26,16 @@ function page() {
         <Image src={Img3} width={300} />
         <Image src={Img2} width={300} />
       </div>
+      <h3 className='text-2xl text-center font-semibold'>
+        Types of ATS Panels available
+      </h3>
+      <ul className='flex items-center justify-center gap-5 flex-wrap p-10'>
+        {
+          data.map((item) => {
+            return <li className='bg-indigo-500 text-white px-5 py-2 rounded font-semibold boxShadow' key={item}>{item}</li>
+          })
+        }
+      </ul>
       <ul className='text-sm list-decimal list-inside'>
         <h3 className='text-2xl font-semibold py-3'>
           Some Features about ATS Panels!

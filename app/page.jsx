@@ -7,7 +7,7 @@ import Message from './components/Message'
 import Responses from './components/Responses'
 import Services from './components/Services'
 import Image from 'next/image'
-import Img from "./assets/screwdriver.png";
+import Img from "./assets/head1.png";
 // import Logo from "./assets/Logo1.png";
 
 function page() {
