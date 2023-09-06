@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Logo from "../assets/Logo123.png";
+import Logo from "../assets/Logo/ICONIC ENERGY SOLUTION-04.svg";
 
 function page() {
   return (
@@ -15,7 +15,7 @@ function page() {
         <div className='lg:w-[15vw] lg:h-[15vw] bg-slate-50 rounded-full flex items-center justify-center text-xs p-5 font-semibold text-center border-4 border-indigo-500 boxShadow lg:relative top-24'>
           New sound proof canopies  of gensets
         </div>
-        <Image src={Logo} width={250} className='' />
+        <Image src={Logo} width={300} className='' />
         <div className='lg:w-[15vw] lg:h-[15vw] bg-slate-50 rounded-full flex items-center justify-center text-xs p-5 font-semibold text-center border-4 border-indigo-500 boxShadow lg:relative top-24'>
           Transformer  Repairing work
         </div>
