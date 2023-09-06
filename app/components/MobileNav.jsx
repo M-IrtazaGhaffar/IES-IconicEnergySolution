@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react'
-import Logo from "../assets/Logo1.png";
+import Logo from "../assets/Logo/ICONIC ENERGY SOLUTION-04.svg";
 
 function MobileNav() {
     const [Open, setOpen] = useState(0);
@@ -21,7 +21,7 @@ function MobileNav() {
                 <div className="drawer-side">
                     <label htmlFor="my-drawer" className="drawer-overlay"></label>
                     <ul className="menu p-4 w-80 min-h-full bg-white text-black">
-                        <Image src={Logo} width={200} className='p-5' alt='Img' />
+                        <Image src={Logo} width={500} alt='Img' />
                         <ul className="menu menu-horizontal flex flex-col items-start justify-center gap-3">
                             <li>
                                 <Link onClick={()=>setOpen(!Open)} href='/gen'>Generators list</Link>

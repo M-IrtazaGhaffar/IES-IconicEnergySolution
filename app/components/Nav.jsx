@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Logo from "../assets/Logo1.png";
+import Logo from "../assets/Logo/ICONIC ENERGY SOLUTION-02.svg";
 import DesktopNav from './DesktopNav';
 import MobileNav from './MobileNav';
 import Link from 'next/link';

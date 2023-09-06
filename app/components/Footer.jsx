@@ -1,16 +1,14 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import Logo from "../assets/Logo1.png";
 // bg-[#576CBC]
 // linear-gradient(110deg, rgba(255, 255, 255, 0) 64%, rgba(37, 57, 147, 0.08) 64%);
 
 function Footer() {
     return (
         <section className='bg-white shadow-2xl'>
-            <footer className="footer p-10 bg-indigo-500 text-white rounded-t-3xl boxShadow">
+            <footer className="footer p-10 bg-indigo-500 text-white rounded-t-3xl relative boxShadow">
                 <div className='lg:w-[50vw]'>
-                {/* <Image src={Logo} /> */}
                     <h3 className='pt-10 text-2xl font-bold'>
                         Iconic Energy Solutions
                     </h3>
@@ -29,6 +27,7 @@ function Footer() {
                 <div>
                     <span className="footer-title">Company</span>
                     <Link className='link link-hover' href='/ac'>AC Inverter</Link>
+                    <Link className={`transition-all outline-none`} href='/gen'>Generators</Link>
                     <Link className={`transition-all outline-none`} href='/ats'>ATS</Link>
                     <Link className={`transition-all outline-none`} href='/cctv'>CCTV</Link>
                     <Link className={`transition-all outline-none`} href='/others'>Others</Link>

@@ -3,7 +3,6 @@ import Footer from './components/Footer'
 import Nav from './components/Nav'
 import './globals.css'
 import { Montserrat } from 'next/font/google'
-// const {Montserrat} = require('next/font/google')
 
 const montserrat = Montserrat({ subsets: ['latin'] })
 
@@ -17,7 +16,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${montserrat.className} text-black bg-white`}>
         <Nav />
-        { children }
+        {children}
         <Footer />
       </body>
     </html>
