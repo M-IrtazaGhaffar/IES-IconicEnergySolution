@@ -300,20 +300,20 @@ function page({ params }) {
             <h3 className='text-2xl text-center font-bold'>
               Generator
             </h3>
-            <h1 className='text-4xl capitalize lg:text-6xl p-5 text-center font-extrabold'>
+            <h1 className='text-4xl capitalize lg:text-6xl lg:p-5 text-center font-extrabold'>
               {params.id}
             </h1>
-            <p className='p-5 text-xs text-center'>
+            <p className='py-5 text-xs text-center'>
               {
                 item.name === 'rental' ?
                   'If you need a generator for a temporary or permanent power need, Iconic Energy Solutions is a good option. They offer a wide range of generators from top brands, and they have a team of experts who can help you choose the right generator for your needs. The generators offered for rent by Iconic Energy Solutions are from top brands like Generac, Cummins, and Kohler. They come in a variety of sizes and power outputs to meet different needs.'
                   :
-                  'If you are looking for a reliable and powerful generator, a {params.id} generator is a good option. They are known for their durability, performance, and efficiency, and they are available in a variety of sizes to meet different needs.'
+                  `If you are looking for a reliable and powerful generator, a ${params.id} generator is a good option. They are known for their durability, performance, and efficiency, and they are available in a variety of sizes to meet different needs.`
               }
             </p>
             {
               item.name === 'rental' ?
-                <div className='p-10 flex flex-col gap-5'>
+                <div className='py-10 lg:p-10 flex flex-col gap-5'>
                   <ul className='list list-decimal list-inside'>
                     <p className='text-xl font-semibold'>
                       Here are some of the benefits of renting a generator from Iconic Energy Solutions!

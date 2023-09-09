@@ -8,6 +8,7 @@ import Responses from './components/Responses'
 import Services from './components/Services'
 import Image from 'next/image'
 import Img from "./assets/head1.png";
+import Carousel from './components/Carousel'
 // import Logo from "./assets/Logo1.png";
 
 function page() {
@@ -20,6 +21,7 @@ function page() {
       <div className='flex items-center justify-center pt-0 px-10 pb-20'>
         <Image src={Img} alt='Img' width={500} />
       </div>
+      <Carousel />
       <About />
       <Message />
       <div className="divider"></div>
