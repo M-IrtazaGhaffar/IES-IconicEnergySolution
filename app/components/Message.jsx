@@ -45,11 +45,8 @@ function Message() {
                             SYED INTIZAR MEHDI
                         </span>
                     </h1>
-                    <p>Power Industry is being revolutionized and getting increasingly competitive and complex, it therefore becomes essential for companies to concentrate more on their core businesses in order to delivering
-                        value. ICONIC Management understands this and thus has put to gether every vital component to be largest network national company in generator services throughout Pakistan.
-                        Since inception we have strived working towards our vision, and meeting client expectations. So customer satisfaction is at the forefront of our every undertaking. We comply with strategy and regulations of alt clients specially banking sector, and understand the significance of offering our clients prompt and impeccable services.
-                        Our expertise in the area of non-core functions enables us to ensure a seamless movement of your business activities. The satisfaction of our
-                        customers is our greatest reward. It inspires us to be innovative and motivates us to excel.</p>
+                    <p>Power Industry is being revolutionized and getting increasingly competitive and complex, it therefore becomes essential for companies to concentrate more on their core businesses in order to delivering value. ICONIC Management understands this and thus has put together every vital component to be largest network national company in generator services throughout Pakistan.
+                    Since inception we have strived working towards our vision, and meeting client expectations. So customer satisfaction is at the forefront of our every undertaking. We comply with strategy and regulations of all clients specially banking sector, and understand the significance of offering our clients prompt and impeccable services. Our expertise in the area of non-core functions enables us to ensure a seamless movement of your business activities. The satisfaction of our customers is our greatest reward. It inspires us to be innovative and motivates us to excel.</p>
                 </div>
                 <div className='bg-indigo-500 lg:w-[40%] rounded-3xl messageImgr relative right-[-80px] lg:right-[-50px] flex justify-start px-5 py-1 overflow-hidden boxShadow'>
                     <Image className='scale-90 rounded-3xl boxShadow hover:scale-125 transition-all' width={300} height={100} src={C1} alt='Img' />

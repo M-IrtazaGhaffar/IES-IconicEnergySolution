@@ -24,7 +24,7 @@ function page() {
           In an air conditioner, the inverter controls the speed of the compressor, which is the main component that cools the air. A conventional air conditioner uses a fixed-speed compressor, which means that it runs at full speed all the time, even when the room is already cool. This wastes energy.
           An inverter air conditioner, on the other hand, can vary the speed of the compressor, so that it only runs as fast as needed to maintain the desired room temperature. This results in significant energy savings.
           In addition to being more energy-efficient, inverter air conditioners also tend to be quieter than conventional air conditioners. This is because the compressor does not have to run as fast, so it produces less noise.
-          If you are looking for an air conditioner that is energy-efficient and quiet, then an inverter air conditioner is a good option. If you are considering buying an air conditioner, I recommend that you get an inverter air conditioner. It is a more efficient and comfortable option that will save you money in the long run.
+          If you are looking for an air conditioner that is energy-efficient and quiet, then an inverter air conditioner is a good option. If you are considering buying an air conditioner, I recommend that you get an inverter air conditioner. It is a more efficient and comfortable option that will save you money in the long run. Iconic Managment can provide you from 1 ton to 2 ton ACs in any sector.
         </p>
         <span className='block py-10 text-xl font-semibold'>
           Yes! We are here to provide you.
