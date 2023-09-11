@@ -557,9 +557,9 @@ function page({ params }) {
                 {
                   item.dataSet.map((ele) => {
                     return (
-                      <table className="table lg:max-w-[50vw] bg-slate-100 rounded">
+                      <table className="table lg:max-w-[50vw] bg-slate-100 rounded border-2 border-black">
                         {/* head */}
-                        <thead className='text-black'>
+                        <thead className='text-white bg-slate-700'>
                           <tr>
                             <th>Name</th>
                             <th>Specifications</th>
