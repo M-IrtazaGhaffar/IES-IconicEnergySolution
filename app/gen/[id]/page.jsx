@@ -1,7 +1,7 @@
 import React from 'react'
-import Img from "../../assets/gen.png";
-import Image from 'next/image';
+import B1 from "../../assets/B1.jpeg";
 import Link from 'next/link';
+import Image from 'next/image';
 
 function page({ params }) {
 
@@ -274,14 +274,201 @@ function page({ params }) {
       ]
     },
     {
-      name: 'tazzato',
+      name: 'tazato',
       dataSet: [
         {
-          name: 'Cummins 6BTA5.9-G5',
-          kv: '100KVA (Prime)',
+          name: 'Tz6',
+          kv: '6KVA (Prime)',
           f: '50Hz',
-          cp: 'DeepSea 7000 SERIES',
-          c: '4 Stroke'
+          cp: 'DSE4520',
+          c: '3 cylinders'
+        },
+        {
+          name: 'Tz10',
+          kv: '10KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE4520',
+          c: '3 cylinders'
+        },
+        {
+          name: 'Tz12',
+          kv: '12KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE4520',
+          c: '3 cylinders'
+        },
+        {
+          name: 'Tz13',
+          kv: '13KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE4520',
+          c: '3 cylinders'
+        },
+        {
+          name: 'Tz15',
+          kv: '15KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE4520',
+          c: '3 cylinders'
+        },
+        {
+          name: 'Tz16',
+          kv: '16KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE4520',
+          c: '3 cylinders'
+        },
+        {
+          name: 'Tz18',
+          kv: '18KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE4520',
+          c: '4 cylinders'
+        },
+        {
+          name: 'Tz20',
+          kv: '20KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE4520',
+          c: '4 cylinders'
+        },
+        {
+          name: 'Tz22',
+          kv: '22KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE4520',
+          c: '4 cylinders'
+        },
+        {
+          name: 'Tz27',
+          kv: '27KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE4520',
+          c: '4 cylinders'
+        },
+        {
+          name: 'Tz30',
+          kv: '30KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE4520',
+          c: '4 cylinders'
+        },
+        {
+          name: 'Tz37',
+          kv: '37KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE4520',
+          c: '4 cylinders'
+        },
+        {
+          name: 'Tz40',
+          kv: '40KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE4520',
+          c: '4 cylinders'
+        },
+        {
+          name: 'Tz50',
+          kv: '50KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE4520',
+          c: '4 cylinders'
+        },
+        {
+          name: 'Tz60',
+          kv: '60KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE6020',
+          c: '4 cylinders'
+        },
+        {
+          name: 'Tz70',
+          kv: '30KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE6020',
+          c: '4 cylinders'
+        },
+        {
+          name: 'Tz100',
+          kv: '30KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE6020',
+          c: '4 cylinders'
+        },
+        {
+          name: 'Tz125',
+          kv: '30KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE6020',
+          c: '4 cylinders'
+        },
+        {
+          name: 'Tz135',
+          kv: '135KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE6020',
+          c: '4 cylinders'
+        },
+        {
+          name: 'Tz150',
+          kv: '150KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE6020',
+          c: '4 cylinders'
+        },
+        {
+          name: 'Tz200',
+          kv: '200KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE6020',
+          c: '4 cylinders'
+        },
+      ]
+    },
+    {
+      name: 'energizer',
+      dataSet: [
+        {
+          name: 'GEZ4050/E',
+          kv: '2.5KVA (Prime)',
+          f: '50Hz',
+          cp: 'Recoil/Electric',
+          c: '212 CC'
+        },
+        {
+          name: 'GEZ5500/E',
+          kv: '2.8KVA (Prime)',
+          f: '50Hz',
+          cp: 'Recoil/Electric',
+          c: '212 CC'
+        },
+        {
+          name: 'GEZ6000/E',
+          kv: '3.2KVA (Prime)',
+          f: '50Hz',
+          cp: 'Recoil/Electric',
+          c: '224 CC'
+        },
+        {
+          name: 'GEZ8000/E',
+          kv: '5KVA (Prime)',
+          f: '50Hz',
+          cp: 'Recoil/Electric',
+          c: '420 CC'
+        },
+        {
+          name: 'GEZ10000/E',
+          kv: '6KVA (Prime)',
+          f: '50Hz',
+          cp: 'Recoil/Electric',
+          c: '420 CC'
+        },
+        {
+          name: 'GEZ12000/E',
+          kv: '7.5KVA (Prime)',
+          f: '50Hz',
+          cp: 'Recoil/Electric',
+          c: '457 CC'
         },
       ]
     },
@@ -367,7 +554,6 @@ function page({ params }) {
                   </h3>
               }
               <div className="overflow-x-auto flex justify-center items-center flex-col gap-10 py-10">
-                {/* <Image src={Img} /> */}
                 {
                   item.dataSet.map((ele) => {
                     return (

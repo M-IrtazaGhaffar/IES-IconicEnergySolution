@@ -29,7 +29,8 @@ function MobileNav() {
                                     <li><Link className={`transition-all outline-none`} href='/gen/cummins' onClick={()=>setOpen(!Open)}>Cummins</Link></li>
                                     <li><Link className={`transition-all outline-none`} href='/gen/perkins' onClick={()=>setOpen(!Open)}>Perkin UK</Link></li>
                                     <li><Link className={`transition-all outline-none`} href='/gen/yd' onClick={()=>setOpen(!Open)}>YD</Link></li>
-                                    <li><Link className={`transition-all outline-none`} href='/gen/tazzato' onClick={()=>setOpen(!Open)}>Tazzato</Link></li>
+                                    <li><Link className={`transition-all outline-none`} href='/gen/tazato' onClick={()=>setOpen(!Open)}>Tazato</Link></li>
+                                    <li><Link className={`transition-all outline-none`} href='/gen/energizer' onClick={()=>setOpen(!Open)}>Energizer</Link></li>
                                     <li><Link className={`transition-all outline-none`} href='/gen/rental' onClick={()=>setOpen(!Open)}>Rental Generators</Link></li>
                                 </ul>
                             </li>
