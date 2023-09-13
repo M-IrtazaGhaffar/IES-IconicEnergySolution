@@ -265,11 +265,67 @@ function page({ params }) {
       name: 'yd',
       dataSet: [
         {
-          name: 'Cummins 6BTA5.9-G5',
+          name: 'YD15D',
+          kv: '15KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE4520',
+          c: '3 Cylinder'
+        },
+        {
+          name: 'YD20D',
+          kv: '20KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE4520',
+          c: '4 Cylinder'
+        },
+        {
+          name: 'YD22D',
+          kv: '22KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE4520',
+          c: '4 Cylinder'
+        },
+        {
+          name: 'YD27D',
+          kv: '27KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE4520',
+          c: '4 Cylinder'
+        },
+        {
+          name: 'YD37D',
+          kv: '37KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE4520',
+          c: '4 Cylinder'
+        },
+        {
+          name: 'YD40D',
+          kv: '40KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE4520',
+          c: '4 Cylinder'
+        },
+        {
+          name: 'YD50D',
+          kv: '50KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE4520',
+          c: '4 Cylinder'
+        },
+        {
+          name: 'YD60D',
+          kv: '60KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE6020',
+          c: '4 Cylinder'
+        },
+        {
+          name: 'YD100D',
           kv: '100KVA (Prime)',
           f: '50Hz',
-          cp: 'DeepSea 7000 SERIES',
-          c: '4 Stroke'
+          cp: 'DSE6020',
+          c: '6 Cylinder'
         },
       ]
     },
