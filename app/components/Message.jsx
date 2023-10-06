@@ -18,7 +18,7 @@ function Message() {
                 <div className='bg-indigo-500 lg:w-[40%] rounded-3xl messageImg relative left-[-80px] lg:left-[-50px] flex justify-end px-5 py-1 overflow-hidden boxShadow'>
                     <Image className='scale-90 rounded-3xl boxShadow hover:scale-125 transition-all' width={300} height={100} src={C2} alt='Img' />
                 </div>
-                <div className='lg:w-[80%] px-10'>
+                <div className='lg:w-[80%] px-5'>
                     <h1 className='text-2xl font-semibold py-10'>
                         CEO&#39;S MESSAGE
                         <br />
@@ -34,7 +34,7 @@ function Message() {
                 </div>
             </div>
             <div className='flex justify-between items-center flex-col-reverse lg:flex-row'>
-                <div className='lg:w-[80%] px-10'>
+                <div className='lg:w-[80%] px-5'>
                     <h1 className='text-2xl font-semibold py-10'>
                         DIRECTOR&#39;S MESSAGE
                         <br />
