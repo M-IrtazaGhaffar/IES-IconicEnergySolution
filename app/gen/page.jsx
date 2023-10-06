@@ -19,8 +19,8 @@ function page() {
             name: 'YangDong'
         },
         {
-            route: '/gen/tazzato',
-            name: 'Tazzato'
+            route: '/gen/tazato',
+            name: 'Tazato'
         },
         {
             route: '/gen/rental',
