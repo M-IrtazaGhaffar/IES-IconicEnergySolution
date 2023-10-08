@@ -652,8 +652,8 @@ function page({ params }) {
                         <tbody>
                           {/* row 1 */}
                           <tr>
-                            <td>{ele.name}</td>
-                            <td>{ele.kv}</td>
+                            <td className='font-bold'>{ele.name}</td>
+                            <td className='font-bold text-blue-500'>{ele.kv}</td>
                           </tr>
                           {/* row 2 */}
                           <tr className="">
