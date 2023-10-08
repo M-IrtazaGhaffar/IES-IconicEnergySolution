@@ -556,7 +556,7 @@ function page({ params }) {
             </p>
             {
               item.name === 'rental' ?
-                <div className='py-10 lg:p-10 flex flex-col gap-5'>
+                <div className='py-10 flex flex-col gap-5'>
                   <ul className='list list-decimal list-inside'>
                     <p className='text-xl font-semibold'>
                       Here are some of the benefits of renting a generator from Iconic Energy Solutions!

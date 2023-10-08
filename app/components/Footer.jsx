@@ -34,6 +34,7 @@ function Footer() {
                     <span className="footer-title">Company</span>
                     <Link className='link link-hover' href='/ac'>AC Inverter</Link>
                     <Link className={`transition-all outline-none`} href='/gen'>Generators</Link>
+                    <Link className={`transition-all outline-none`} href='/clients'>Clients</Link>
                     <Link className={`transition-all outline-none`} href='/ats'>ATS</Link>
                     <Link className={`transition-all outline-none`} href='/cctv'>CCTV</Link>
                     <Link className={`transition-all outline-none`} href='/others'>Others</Link>

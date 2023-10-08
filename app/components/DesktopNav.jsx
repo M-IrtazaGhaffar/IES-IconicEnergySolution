@@ -9,6 +9,7 @@ function DesktopNav() {
                 <li>
                     <DesktopNavChild />
                 </li>
+                <li><Link className={`transition-all outline-none`} href='/clients'>Clients</Link></li>
                 <li><Link className={`transition-all outline-none`} href='/ac'>AC Inverter</Link></li>
                 <li><Link className={`transition-all outline-none`} href='/ats'>ATS</Link></li>
                 <li><Link className={`transition-all outline-none`} href='/cctv'>CCTV</Link></li>

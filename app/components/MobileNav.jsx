@@ -10,7 +10,7 @@ function MobileNav() {
     return (
         <div className='lg:hidden'>
             <div className="drawer">
-                <input id="my-drawer" type={ Open ? `checkbox` : 'reset'} className="drawer-toggle" />
+                <input id="my-drawer" type={Open ? `checkbox` : 'reset'} className="drawer-toggle" />
                 <div className="drawer-content">
                     <label htmlFor="my-drawer" className="drawer-button">
                         <svg onClick={() => setOpen(1)} xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-list-nested" viewBox="0 0 16 16">
@@ -21,26 +21,29 @@ function MobileNav() {
                 <div className="drawer-side">
                     <label htmlFor="my-drawer" className="drawer-overlay"></label>
                     <ul className="menu p-4 w-80 min-h-full bg-white text-black">
-                        <Image src={Logo} width={500} alt='Img' />
+                        <Link className={`transition-all outline-none`} href='/' onClick={() => setOpen(!Open)}>
+                            <Image src={Logo} width={500} alt='Img' onClick={() => setOpen(!Open)} />
+                        </Link>
                         <ul className="menu menu-horizontal flex flex-col items-start justify-center gap-3">
                             <li>
-                                <Link onClick={()=>setOpen(!Open)} href='/gen'>Generators list</Link>
+                                <Link onClick={() => setOpen(!Open)} href='/gen'>Generators list</Link>
                                 <ul>
-                                    <li><Link className={`transition-all outline-none`} href='/gen/cummins' onClick={()=>setOpen(!Open)}>Cummins</Link></li>
-                                    <li><Link className={`transition-all outline-none`} href='/gen/perkins' onClick={()=>setOpen(!Open)}>Perkin UK</Link></li>
-                                    <li><Link className={`transition-all outline-none`} href='/gen/yd' onClick={()=>setOpen(!Open)}>YD</Link></li>
-                                    <li><Link className={`transition-all outline-none`} href='/gen/tazato' onClick={()=>setOpen(!Open)}>Tazato</Link></li>
-                                    <li><Link className={`transition-all outline-none`} href='/gen/energizer' onClick={()=>setOpen(!Open)}>Energizer</Link></li>
-                                    <li><Link className={`transition-all outline-none`} href='/gen/rental' onClick={()=>setOpen(!Open)}>Rental Generators</Link></li>
+                                    <li><Link className={`transition-all outline-none`} href='/gen/cummins' onClick={() => setOpen(!Open)}>Cummins</Link></li>
+                                    <li><Link className={`transition-all outline-none`} href='/gen/perkins' onClick={() => setOpen(!Open)}>Perkin UK</Link></li>
+                                    <li><Link className={`transition-all outline-none`} href='/gen/yd' onClick={() => setOpen(!Open)}>YD</Link></li>
+                                    <li><Link className={`transition-all outline-none`} href='/gen/tazato' onClick={() => setOpen(!Open)}>Tazato</Link></li>
+                                    <li><Link className={`transition-all outline-none`} href='/gen/energizer' onClick={() => setOpen(!Open)}>Energizer</Link></li>
+                                    <li><Link className={`transition-all outline-none`} href='/gen/rental' onClick={() => setOpen(!Open)}>Rental Generators</Link></li>
                                 </ul>
                             </li>
-                            <li><Link className={`transition-all outline-none`} href='/ac' onClick={()=>setOpen(!Open)}>AC Inverter</Link></li>
-                            <li><Link className={`transition-all outline-none`} href='/ats' onClick={()=>setOpen(!Open)}>ATS</Link></li>
-                            <li><Link className={`transition-all outline-none`} href='/cctv' onClick={()=>setOpen(!Open)}>CCTV</Link></li>
-                            <li><Link className={`transition-all outline-none`} href='/others' onClick={()=>setOpen(!Open)}>Others</Link></li>
-                            <li><Link className={`transition-all outline-none`} href='/contact' onClick={()=>setOpen(!Open)}>Contact Us</Link></li>
-                            <li><Link className={`transition-all outline-none`} href='/load' onClick={()=>setOpen(!Open)}>Load Calculator</Link></li>
-                            <li><Link className={`transition-all outline-none`} href='/applications' onClick={()=>setOpen(!Open)}>Applications</Link></li>
+                            <li><Link className={`transition-all outline-none`} href='/clients' onClick={() => setOpen(!Open)}>Clients</Link></li>
+                            <li><Link className={`transition-all outline-none`} href='/ac' onClick={() => setOpen(!Open)}>AC Inverter</Link></li>
+                            <li><Link className={`transition-all outline-none`} href='/ats' onClick={() => setOpen(!Open)}>ATS</Link></li>
+                            <li><Link className={`transition-all outline-none`} href='/cctv' onClick={() => setOpen(!Open)}>CCTV</Link></li>
+                            <li><Link className={`transition-all outline-none`} href='/others' onClick={() => setOpen(!Open)}>Others</Link></li>
+                            <li><Link className={`transition-all outline-none`} href='/contact' onClick={() => setOpen(!Open)}>Contact Us</Link></li>
+                            <li><Link className={`transition-all outline-none`} href='/load' onClick={() => setOpen(!Open)}>Load Calculator</Link></li>
+                            <li><Link className={`transition-all outline-none`} href='/applications' onClick={() => setOpen(!Open)}>Applications</Link></li>
                         </ul>
                     </ul>
                 </div>

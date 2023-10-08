@@ -3,6 +3,10 @@ import React from 'react'
 import Img1 from "../assets/ats1.jpg";
 import Img2 from "../assets/ats2.jpg";
 import Img3 from "../assets/ats3.jpg";
+import Img4 from "../assets/ats4.jpg";
+import Img5 from "../assets/ats5.jpg";
+import Img6 from "../assets/ats6.jpg";
+import Img7 from "../assets/ats7.jpg";
 import Link from 'next/link';
 
 function page() {
@@ -21,14 +25,23 @@ function page() {
       <p className='text-xs text-center'>
         An ATS panel, or Automatic Transfer Switch, is a device that automatically switches between two power sources. This is typically used in commercial and industrial settings to ensure that there is always a backup power source available in case of a power outage.
       </p>
+      <h3 className='text-2xl text-center font-semibold py-5 lg:py-10'>
+        ATS Panels we produce
+      </h3>
+      <div className='flex justify-center py-10 items-center gap-10 flex-wrap'>
+        <Image src={Img7} width={250} className='border-4 rounded border-indigo-500' />
+        <Image src={Img4} width={250} className='border-4 rounded border-indigo-500' />
+        <Image src={Img5} width={250} className='border-4 rounded border-indigo-500' />
+        <Image src={Img6} width={250} className='border-4 rounded border-indigo-500' />
+      </div>
+      <h3 className='text-2xl text-center font-semibold py-5 lg:py-10'>
+        Types of ATS Panels available
+      </h3>
       <div className='flex justify-center py-10 items-center gap-10 flex-wrap'>
         <Image src={Img1} width={300} />
         <Image src={Img3} width={300} />
         <Image src={Img2} width={300} />
       </div>
-      <h3 className='text-2xl text-center font-semibold'>
-        Types of ATS Panels available
-      </h3>
       <ul className='flex items-center justify-center gap-5 flex-wrap p-10'>
         {
           data.map((item) => {
@@ -36,7 +49,7 @@ function page() {
           })
         }
       </ul>
-      <ul className='text-sm list-decimal list-inside'>
+      <ul className='text-md list-decimal list-inside space-y-5'>
         <h3 className='text-2xl font-semibold py-3'>
           Some Features about ATS Panels!
         </h3>

@@ -33,7 +33,7 @@ function page() {
           })
         }
       </ul>
-      <ul className='text-sm list-decimal list-inside'>
+      <ul className='text-md list-decimal list-inside space-y-5'>
         <h3 className='text-2xl font-semibold py-3'>
           Some Features about CCTV!
         </h3>

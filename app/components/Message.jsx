@@ -11,7 +11,7 @@ function Message() {
                     Our Founders
                 </h1>
                 <p className='text-sm'>
-                    Our founders are true pioneers who saw opportunities where others saw challenges. Fueled by their passion for [industry/sector], they embarked on a mission to revolutionize the landscape and push boundaries. Their innovative thinking and unwavering determination have been the driving force behind our company's evolution.
+                    Our founders are true pioneers who saw opportunities where others saw challenges. Fueled by their passion for industry/sector, they embarked on a mission to revolutionize the landscape and push boundaries. Their innovative thinking and unwavering determination have been the driving force behind our company's evolution.
                 </p>
             </div>
             <div className='flex justify-between items-center flex-col lg:flex-row'>

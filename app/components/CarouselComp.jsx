@@ -27,8 +27,6 @@ import C30 from "../assets/Carousel/30.jpeg";
 import C31 from "../assets/Carousel/31.jpeg";
 import Image from "next/image";
 
-
-
 import React from 'react'
 
 // Import Swiper React components
