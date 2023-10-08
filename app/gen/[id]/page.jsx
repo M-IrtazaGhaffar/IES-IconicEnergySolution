@@ -155,6 +155,34 @@ function page({ params }) {
       name: 'cummins',
       dataSet: [
         {
+          name: 'C30 4B3.9G1',
+          kv: '30KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE4520',
+          c: '4 Cylinder'
+        },
+        {
+          name: 'C38 4Bt3.9G2',
+          kv: '38KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE4520',
+          c: '4 Cylinder'
+        },
+        {
+          name: 'C40 4Bt3.9G2',
+          kv: '40KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE4520',
+          c: '4 Cylinder'
+        },
+        {
+          name: 'C60 4Bta3.9G2',
+          kv: '60KVA (Prime)',
+          f: '50Hz',
+          cp: 'DSE4520',
+          c: '4 Cylinder'
+        },
+        {
           name: 'Cummins 6BTA5.9-G5',
           kv: '100KVA (Prime)',
           f: '50Hz',
@@ -557,7 +585,7 @@ function page({ params }) {
             {
               item.name === 'rental' ?
                 <div className='py-10 flex flex-col gap-5'>
-                  <ul className='list list-decimal list-inside'>
+                  <ul className='list list-decimal list-inside space-y-5'>
                     <p className='text-xl font-semibold'>
                       Here are some of the benefits of renting a generator from Iconic Energy Solutions!
                     </p>
@@ -575,7 +603,7 @@ function page({ params }) {
 
                     </li>
                   </ul>
-                  <ul className='list list-decimal list-inside'>
+                  <ul className='list list-decimal list-inside space-y-5'>
                     <p className='text-xl font-semibold'>
                       Here are some of the factors to consider when choosing a generator to rent!
                     </p>

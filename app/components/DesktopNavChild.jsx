@@ -23,7 +23,7 @@ function DesktopNavChild() {
                 <li><Link className={`transition-all outline-none`} href='/gen/yd'>YD</Link></li>
                 <li><Link className={`transition-all outline-none`} href='/gen/energizer'>Energizer</Link></li>
                 <li><Link className={`transition-all outline-none`} href='/gen/tazato'>Tazato</Link></li>
-                <li><Link className={`transition-all outline-none`} href='/gen/rental'>RENTAL GENRATORS</Link></li>
+                <li><Link className={`transition-all outline-none`} href='/gen/rental'>Rental Generators</Link></li>
             </ul>
         </div>
     )
