@@ -639,37 +639,42 @@ function page({ params }) {
               }
               <div className="overflow-x-auto flex justify-center items-center flex-col gap-10 py-10">
                 {
-                  item.dataSet.map((ele) => {
+                  item.dataSet.map((ele, index) => {
                     return (
-                      <table className="table lg:max-w-[50vw] bg-slate-100 rounded border-2 border-black">
-                        {/* head */}
-                        <thead className='text-white bg-slate-700'>
-                          <tr>
-                            <th>Name</th>
-                            <th>Specifications</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {/* row 1 */}
-                          <tr>
-                            <td className='font-bold'>{ele.name}</td>
-                            <td className='font-bold text-blue-500'>{ele.kv}</td>
-                          </tr>
-                          {/* row 2 */}
-                          <tr className="">
-                            <td>Frequency</td>
-                            <td>{ele.f}</td>
-                          </tr>
-                          <tr>
-                            <td>Control Panel</td>
-                            <td>{ele.cp}</td>
-                          </tr>
-                          <tr>
-                            <td>Cycle</td>
-                            <td>{ele.c}</td>
-                          </tr>
-                        </tbody>
-                      </table>
+                      <div key={index} className='w-full flex justify-center flex-col items-center'>
+                        <h3 className='capitalize font-bold p-3 text-lg'>
+                          {item.name} - {ele.kv}
+                        </h3>
+                        <table className="table lg:max-w-[50vw] bg-slate-100 rounded border-2 border-black">
+                          {/* head */}
+                          <thead className='text-white bg-slate-700'>
+                            <tr>
+                              <th>Name</th>
+                              <th>Specifications</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {/* row 1 */}
+                            <tr>
+                              <td className='font-bold'>{ele.name}</td>
+                              <td className='font-bold text-blue-500'>{ele.kv}</td>
+                            </tr>
+                            {/* row 2 */}
+                            <tr className="">
+                              <td>Frequency</td>
+                              <td>{ele.f}</td>
+                            </tr>
+                            <tr>
+                              <td>Control Panel</td>
+                              <td>{ele.cp}</td>
+                            </tr>
+                            <tr>
+                              <td>Cycle</td>
+                              <td>{ele.c}</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                     )
                   })
                 }
