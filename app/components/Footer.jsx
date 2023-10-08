@@ -25,9 +25,6 @@ function Footer() {
                         <li>
                             Call us on <br /> <a href="tel:+923014082482" className='text-sm p-5'>+923014082482</a>
                         </li>
-                        <li>
-                            Call us on <br /> <a href="tel:+923335390253" className='text-sm p-5'>+923335390253</a>
-                        </li>
                     </ul>
                 </div>
                 <div>

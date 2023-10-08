@@ -1,6 +1,6 @@
 const stats = [
-  { name: 'Offices worldwide', value: '12' },
-  { name: 'Full-time colleagues', value: '300+' },
+  { name: 'Offices Countrywide', value: '12' },
+  { name: 'Full-time colleagues', value: '30+' },
   { name: 'Hours per week', value: '40' },
   { name: 'Paid time off', value: 'Unlimited' },
 ]
@@ -64,7 +64,7 @@ export default function Work() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Work with us</h2>
-          <p className="text-white py-3 text-sm">We are a forward-thinking company dedicated to pushing the boundaries of possibility. Our culture thrives on diversity, creativity, and a shared commitment to excellence. As industry leaders, we're driven by the goal to revolutionize [industry/sector] and enhance the lives of [target audience] around the world.</p>
+          <p className="text-white py-3 text-sm">We are a forward-thinking company dedicated to pushing the boundaries of possibility. Our culture thrives on diversity, creativity, and a shared commitment to excellence. As industry leaders, we're driven by the goal to revolutionize [industry/sector] and enhance the lives of target audience around the world.</p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
           <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
