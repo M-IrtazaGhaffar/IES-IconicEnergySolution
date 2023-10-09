@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Cctv from "../assets/cctv.jpg";
-import Generator from "../assets/generator.jpg";
+import Generator from "../assets/generator.png";
 import AC from "../assets/ac.jpg";
 
 function Services() {
