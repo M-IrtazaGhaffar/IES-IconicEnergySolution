@@ -31,21 +31,21 @@ function page() {
         </span>
       </div>
       <div className="flex flex-wrap items-center justify-center gap-5">
-        <Image src={L1} width={250} className='border-4 rounded border-indigo-500' />
-        <Image src={L2} width={250} className='border-4 rounded border-indigo-500' />
-        <Image src={L3} width={250} className='border-4 rounded border-indigo-500' />
-        <Image src={L4} width={250} className='border-4 rounded border-indigo-500' />
+        <Image src={L1} alt='Image' width={250} className='border-4 rounded border-indigo-500' />
+        <Image src={L2} alt='Image' width={250} className='border-4 rounded border-indigo-500' />
+        <Image src={L3} alt='Image' width={250} className='border-4 rounded border-indigo-500' />
+        <Image src={L4} alt='Image' width={250} className='border-4 rounded border-indigo-500' />
       </div>
       <p className='py-20 text-2xl font-semibold text-center'>
         Iconic Energy Solutions provide services to every type of AC Inverter Tech or Company.
       </p>
       <div className="flex flex-col lg:flex-row flex-wrap items-center justify-center gap-10 px-10 py-20">
-        <Image src={LG} height={50} />
-        <Image src={Orient} height={50} />
-        <Image src={Mitsibushi} height={50} />
-        <Image src={Haier} height={50} />
-        <Image src={Gree} height={50} />
-        <Image src={Kenwood} height={50} />
+        <Image alt='Image' src={LG} height={50} />
+        <Image alt='Image' src={Orient} height={50} />
+        <Image alt='Image' src={Mitsibushi} height={50} />
+        <Image alt='Image' src={Haier} height={50} />
+        <Image alt='Image' src={Gree} height={50} />
+        <Image alt='Image' src={Kenwood} height={50} />
       </div>
       <Link href='/contact' className='text-indigo-500 text-lg flex gap-3 flex-wrap items-center justify-center'>
         Learn More

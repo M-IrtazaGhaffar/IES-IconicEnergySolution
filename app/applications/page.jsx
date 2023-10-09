@@ -70,7 +70,7 @@ function page() {
                     data.map(item => {
                         return (
                             <div className='lg:w-[20vw] bg-slate-100 rounded hover:scale-110 transition-all' key={item.title}>
-                                <Image src={item.img} width={250} className='w-full rounded' />
+                                <Image alt='Image' src={item.img} width={250} className='w-full rounded' />
                                 <h3 className='text-lg font-semibold p-3'>{item.title}</h3>
                                 <p className='text-xs p-3'>{item.desc}</p>
                             </div>

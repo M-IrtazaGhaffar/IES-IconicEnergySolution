@@ -38,7 +38,7 @@ function page() {
                 </p>
             </div>
             <div className='flex justify-center'>
-            <Image src={Img} width={250} className='mb-5 border-2 border-indigo-500 rounded' />
+            <Image alt='Image' src={Img} width={250} className='mb-5 border-2 border-indigo-500 rounded' />
             </div>
             <div className='bgGray min-h-[50vh]'>
                 <h3 className='text-center text-lg font-semibold py-10'>

@@ -21,7 +21,7 @@ function page() {
         The CCTV camera sold by Iconic Energy Solutions is a high-quality security camera that is perfect for home and business use. It features a 1080p resolution, night vision, and motion detection. The camera is also weatherproof and can be mounted indoors or outdoors.
       </p>
       <div className='flex justify-center py-10'>
-        <Image src={Img} width={500} className='border-4 border-indigo-500 rounded' />
+        <Image alt='Image' src={Img} width={500} className='border-4 border-indigo-500 rounded' />
       </div>
       <h3 className='text-2xl text-center font-semibold'>
         Types of CCTV Cameras available

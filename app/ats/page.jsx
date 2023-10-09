@@ -29,18 +29,18 @@ function page() {
         ATS Panels we produce
       </h3>
       <div className='flex justify-center py-10 items-center gap-10 flex-wrap'>
-        <Image src={Img7} width={250} className='border-4 rounded border-indigo-500' />
-        <Image src={Img4} width={250} className='border-4 rounded border-indigo-500' />
-        <Image src={Img5} width={250} className='border-4 rounded border-indigo-500' />
-        <Image src={Img6} width={250} className='border-4 rounded border-indigo-500' />
+        <Image alt='Image' src={Img7} width={250} className='border-4 rounded border-indigo-500' />
+        <Image alt='Image' src={Img4} width={250} className='border-4 rounded border-indigo-500' />
+        <Image alt='Image' src={Img5} width={250} className='border-4 rounded border-indigo-500' />
+        <Image alt='Image' src={Img6} width={250} className='border-4 rounded border-indigo-500' />
       </div>
       <h3 className='text-2xl text-center font-semibold py-5 lg:py-10'>
         Types of ATS Panels available
       </h3>
       <div className='flex justify-center py-10 items-center gap-10 flex-wrap'>
-        <Image src={Img1} width={300} />
-        <Image src={Img3} width={300} />
-        <Image src={Img2} width={300} />
+        <Image alt='Image' src={Img1} width={300} />
+        <Image alt='Image' src={Img3} width={300} />
+        <Image alt='Image' src={Img2} width={300} />
       </div>
       <ul className='flex items-center justify-center gap-5 flex-wrap p-10'>
         {

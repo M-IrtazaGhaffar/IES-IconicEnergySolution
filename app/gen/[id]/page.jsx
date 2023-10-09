@@ -584,7 +584,7 @@ function page({ params }) {
             <div className='flex justify-center items-center flex-wrap gap-5 py-5'>
               {
                 item.img.map((ele, index) => {
-                  return <Image src={ele} key={index} width={500} />
+                  return <Image alt='Image' src={ele} key={index} width={500} />
                 })
               }
             </div>

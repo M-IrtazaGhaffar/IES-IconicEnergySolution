@@ -60,7 +60,7 @@ function CarouselComp() {
                 {
                     data.map((item, index) => {
                         return <SwiperSlide className='pb-10 flex justify-center' key={index}>
-                            <Image src={item} width={1000} />
+                            <Image alt='Image' src={item} width={1000} />
                         </SwiperSlide>
                     })
                 }
