@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link';
-import Img from "../assets/gen.png";
+import Img from "../assets/generator.png";
 
 function page() {
 
@@ -38,7 +38,7 @@ function page() {
                 </p>
             </div>
             <div className='flex justify-center'>
-            <Image src={Img} width={250} />
+            <Image src={Img} width={250} className='mb-5 border-2 border-indigo-500 rounded' />
             </div>
             <div className='bgGray min-h-[50vh]'>
                 <h3 className='text-center text-lg font-semibold py-10'>
@@ -50,7 +50,6 @@ function page() {
                         return (
                             <Link key={item.route} href={item.route} className='text-xl font-bold border-4 border-white hover:border-indigo-500 rounded hover:scale-125 transition-all p-5'>
                                 {item.name}
-                                {/* <Image src={item.img} height={75} className='hover:scale-110 hover:cursor-pointer' /> */}
                             </Link>
                         )
                     })

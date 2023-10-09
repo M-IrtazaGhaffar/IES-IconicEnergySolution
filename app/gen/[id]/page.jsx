@@ -1,5 +1,9 @@
 import React from 'react'
-import B1 from "../../assets/B1.jpeg";
+import Perkins from "../../assets/Perkins.png";
+import Cummins from "../../assets/Cummins.png";
+import Energizer from "../../assets/Energizer.png";
+import YD from "../../assets/YD.png";
+import Rental from "../../assets/Rental.png";
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -149,7 +153,8 @@ function page({ params }) {
           cp: 'DeepSea 4000 SERIES',
           c: '4 Stroke'
         },
-      ]
+      ],
+      img: [Perkins]
     },
     {
       name: 'cummins',
@@ -287,7 +292,8 @@ function page({ params }) {
           cp: 'DeepSea 7000 SERIES',
           c: '4 cycle, in-line, turbo charged, air to air cooled'
         },
-      ]
+      ],
+      img: [Cummins]
     },
     {
       name: 'yd',
@@ -355,7 +361,8 @@ function page({ params }) {
           cp: 'DSE6020',
           c: '6 Cylinder'
         },
-      ]
+      ],
+      img: [YD]
     },
     {
       name: 'tazato',
@@ -507,7 +514,8 @@ function page({ params }) {
           cp: 'DSE6020',
           c: '4 cylinders'
         },
-      ]
+      ],
+      img: []
     },
     {
       name: 'energizer',
@@ -554,12 +562,14 @@ function page({ params }) {
           cp: 'Recoil/Electric',
           c: '457 CC'
         },
-      ]
+      ],
+      img: [Energizer]
     },
     {
       name: 'rental',
       dataSet: [
-      ]
+      ],
+      img: [Rental]
     },
   ]
 
@@ -571,7 +581,14 @@ function page({ params }) {
             <h3 className='text-2xl text-center font-bold'>
               Generator
             </h3>
-            <h1 className='text-4xl capitalize lg:text-6xl lg:p-5 text-center font-extrabold'>
+            <div className='flex justify-center items-center flex-wrap gap-5 py-5'>
+              {
+                item.img.map((ele, index) => {
+                  return <Image src={ele} key={index} width={500} />
+                })
+              }
+            </div>
+            <h1 className='text-4xl capitalize lg:text-6xl lg:p-5 text-center font-extrabold text-[#0B2447]'>
               {params.id}
             </h1>
             <p className='py-5 text-xs text-center'>
